@@ -14,6 +14,8 @@
 	--textColor: #eee;
 }
 
+/*Navbar*/
+
 header {
 	display: flex;
 	align-items: center;
@@ -37,7 +39,8 @@ nav a {
 }
 
 nav a:hover {
-	color: var(--secondaryColor);
+	font-weight: bolder;
+    transform: scale(1.2);
 }
 
 header .nav-btn {
@@ -56,6 +59,32 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+}
+
+/*Our Services*/
+
+#features{
+    text-align: center;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.features .f-box{
+    width: 400px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.04);
+    margin: 18px 0;
+    transition: 0.2s;
+}
+.f-box img {
+    width: 120px;
+    height: 100px;
 }
 
 @media only screen and (max-width: 1024px) {

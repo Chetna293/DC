@@ -16,10 +16,12 @@ function Navbar() {
                 <img src= { logo } />
             </div>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#Home">Home</a>
+				<a href="/#OurServices">Our Services</a>
+				<a href="/#Clients">Clients</a>
+				<a href="/#Team">Team</a>
+				<a href="/#Blog">Blog</a>
+				<a href="/#Contact">Contact</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
